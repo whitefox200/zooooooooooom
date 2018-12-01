@@ -611,7 +611,7 @@ Server Count: __${guild.memberCount}__**`)
 
 client.on ("guildMemberAdd", member => {
   
-   var role = member.guild.roles.find ("name", "ZeX . 44");
+   var role = member.guild.roles.find ("name", "TerMc");
    member.addRole (role);
   
 })
@@ -643,7 +643,7 @@ client.on ("guildMemberRemove", member => {
             text = co.first().content
 
               message.channel.send(`تم حفظ اقتراحك الرجاء انتضار الرد من قبل الاداره`)
-                client.channels.get("487302015505006604").send(`${message.author.username}'الاقتراح => ${text}`)
+                client.channels.get("518486078538383360").send(`${message.author.username}'الاقتراح => ${text}`)
 
               })
             }
